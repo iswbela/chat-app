@@ -113,6 +113,7 @@ const Chat = () => {
             <CircleDashed />
           </IconButton>
         </Stack>
+
         <Stack sx={{ width: "100%" }}>
           <Search>
             <SearchIconWrapper>
@@ -121,6 +122,7 @@ const Chat = () => {
             <StyledInputBase placeholder="Search..." inputProps={{ "aria-label": "search" }} />
           </Search>
         </Stack>
+
         <Stack spacing={1}>
           <Stack direction={"row"} alignItems={"center"} spacing={1.5}>
             <ArchiveBox size={24} />
@@ -128,6 +130,7 @@ const Chat = () => {
           </Stack>
           <Divider />
         </Stack>
+        
         <Stack direction={"column"} sx={{ flexGrow: 1, overflow: "scroll", height: "100%" }}>
         <SimpleBarStyle timeout={500} clickOnTrack={false}>
             <Stack spacing={1.5}>
