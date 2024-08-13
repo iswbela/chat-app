@@ -13,7 +13,7 @@ const DashboardLayout = () => {
   const theme = useTheme();
   const [selected, setSelected] = useState(0);
 
-  const { onToggleMode } = useSettings(); // Ensure `mode` is provided from `useSettings`
+  const { onToggleMode } = useSettings();
 
   return (
     <>
@@ -119,7 +119,7 @@ const DashboardLayout = () => {
               >
                 {theme.palette.mode === 'dark' ? <Sun /> : <Moon />}
               </IconButton>
-              <Avatar src={faker.image.avatar()} />
+              <Avatar src = "https://i.pinimg.com/564x/e5/55/40/e555402af290cd801befb31f56adfa79.jpg"/>
             </Stack>
           </Stack>
         </Box>

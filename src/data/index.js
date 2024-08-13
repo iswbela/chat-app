@@ -54,7 +54,7 @@ const ChatList = [
     msg: faker.music.songName(),
     time: "9:36",
     unread: 0,
-    pinned: true,
+    pinned: false,
     online: true,
   },
   {
@@ -64,7 +64,7 @@ const ChatList = [
     msg: faker.music.songName(),
     time: "12:02",
     unread: 2,
-    pinned: true,
+    pinned: false,
     online: false,
   },
   {
@@ -126,6 +126,16 @@ const ChatList = [
     unread: 0,
     pinned: false,
     online: false,
+  },
+  {
+    id: 8,
+    img: "https://i.pinimg.com/736x/73/9f/0d/739f0d8bae525855f5aadafab55bfe77.jpg",
+    name: "boo emburradinha",
+    msg: "ehehehehe",
+    time: "08:42",
+    unread: 1,
+    pinned: true,
+    online: true,
   },
 ];
 
