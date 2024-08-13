@@ -13,7 +13,7 @@ function App() {
         <Router />{" "}
       </ThemeSettings>
     </ThemeProvider>
-  );
+  )
 }
 
 export default App;
